@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "劲速武汉",
+    "slug": "wuhan-performance-meet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "wuhanperf",
+    "extra": {
+      "amapWebKey": "",
+      "amapSecurityJsCode": "",
+      "aliyunRealtimeWsUrl": ""
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "用于在地图展示你的实时位置，方便附近车友互相发现（可随时在系统设置中关闭）。",
+          "locationWhenInUsePermission": "用于在地图展示你的实时位置，方便附近车友互相发现。"
+        }
+      ]
+    ],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wuhanperf.meet",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "用于在地图展示你的实时位置，方便附近车友互相发现。"
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.wuhanperf.meet",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.DS_Store
+
+# Expo / RN
+.expo-shared/
+*.log
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# OS / IDE
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Native builds (prebuild)
+android/
+ios/
+*.apk
+*.aab
+*.ipa
